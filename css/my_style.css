@@ -1,0 +1,125 @@
+html,body{
+    min-height: 100%
+}
+body{
+    background-color: #1fc8db;
+    background-image: linear-gradient(141deg, #9fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+}
+.form_wizard{
+    padding-top: 100px;
+    padding-bottom: 50px
+}
+.form_wizard > div[class*=col-]{
+    background-color: white;
+    border-radius: 10px;
+    padding-bottom: 25px;
+    padding-top: 25px
+}
+.form_wizard .steps_header{
+    border-right: #d5d5d5 1px solid;
+    padding-top: 35px
+}
+.form_wizard .steps_header .item{
+    cursor: pointer;
+    margin-bottom: 30px
+}
+.form_wizard .steps_header .item .icon_check{
+    display: none
+}
+.form_wizard .steps_header .item .icon
+{
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 6px;
+}
+.form_wizard .steps_header .item .icon_check img{
+    width: 35px;
+    height: 35px;
+}
+.form_wizard .steps_header .item .label{
+    padding-left: 18px;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    padding-top: 5px
+}
+.form_wizard .steps_header .item_loding .label{
+    color: #2cb5e8
+}
+.form_wizard .steps_header .item_loding .icon{
+    background-color: #2cb5e8
+}
+
+.form_wizard .steps_header .item_disable .label{
+    color: gray
+}
+.form_wizard .steps_header .item_disable .icon{
+    background-color: gray
+}
+.form_wizard .steps_header .item_check .label{
+    color: green
+}
+.form_wizard .steps_header .item_check .icon{
+    display: none
+}
+.form_wizard .steps_header .item_check .icon_check{
+    display: block;
+}
+.form_wizard .form_item{
+    padding-top: 30px
+}
+.form_wizard .form_item header .label{
+    line-height: 2;
+    font-weight: 600;
+    color: #444;
+    font-size: 20px;
+    padding-left: 27px
+}
+.form_wizard .form_item header .icon img{
+    width: 33px;
+    height: 33px
+}
+.form_wizard .form_item section label{
+    line-height: 2;
+    font-weight: 600;
+    color: #444;
+    font-size: 12px;
+}
+.form_wizard .form_item section > div{
+    margin-bottom: 20px
+}
+.form_wizard .form_wizard_footer input{
+    width: 100px;
+    border-radius: 100px;
+    height: 45px;
+    font-size: 12px;
+    font-weight: bold
+}
+.form_wizard .form_wizard_footer .pre_btn{
+    background-color: white;
+    color: gray;
+    border: gray 1px solid;
+}
+.form_wizard .form_wizard_footer .nxt_step{
+    background-color: #2cb5e8;
+    color: white;
+}
+.form_wizard .form_upload_image .image img{
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: auto
+}
+.form_wizard .form_upload_image > section{
+    padding-top: 55px;
+    padding-bottom: 55px
+}
+.form_wizard .form_chek_information .label{
+    line-height: 2;
+    font-weight: 600;
+    color: #444;
+    font-size: 12px;
+}
